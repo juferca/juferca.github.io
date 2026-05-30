@@ -2,47 +2,91 @@
 
 Welcome to my portfolio website and GitHub repository.
 
-This portfolio highlights my academic and technical projects as I work toward transitioning into a career in data science and analytics. My background is in warehouse logistics and operations, and I am currently pursuing a Master’s degree in Data Science at Bellevue University.
+I am currently pursuing a Master of Science in Data Science at Bellevue University while transitioning from a background in warehouse operations into data analytics and data science. This portfolio showcases projects completed throughout my academic journey, demonstrating skills in data analysis, data visualization, statistical modeling, machine learning, API integration, and data preparation.
 
 ## Portfolio Website
 
-Visit my portfolio website here:
+Visit my portfolio website:
 
-[juferca.github.io](https://juferca.github.io?utm_source=chatgpt.com)
+**Website:** http://juancaballero.info
 
-## Current Sections
+## About This Portfolio
 
-- About
-- Work / Projects
-- Contact
+This portfolio contains projects that demonstrate the complete data science workflow, including:
 
-## Featured Project
+* Data acquisition and collection.
+* Data cleaning and preparation.
+* Exploratory data analysis (EDA).
+* Statistical analysis.
+* Data visualization
+* Machine learning and predictive modeling.
+* API integration.
+* Business-focused analytics.
+
+## Featured Projects
+
+### Weather Forecast Application
+
+Developed a Python application that retrieves real-time weather information using the OpenWeatherMap API. The application supports city and zip code searches, temperature conversions, user input validation, and error handling.
+
+**Skills:** Python, APIs, JSON, Requests, Error Handling.
+
+### Critic vs. Audience Movie Ratings Analysis
+
+Explored differences between movie critic ratings and audience ratings using Rotten Tomatoes data. Applied statistical analysis and visualization techniques to identify rating trends and discrepancies.
+
+**Skills:** R, Statistical Analysis, Data Visualization, ggplot2.
+
+### Movie Ratings Analysis
+
+Analyzed Rotten Tomatoes movie data to investigate relationships between critic scores, audience scores, runtime, content ratings, and release year. Built regression models and performed hypothesis testing.
+
+**Skills:** Python, Pandas, Statistical Analysis, Regression Modeling.
+
+### Movie Data Acquisition and Preparation Pipeline
+
+Built a data pipeline that collected, cleaned, transformed, and integrated movie data from multiple sources for analysis and modeling.
+
+**Skills:** Python, APIs, Web Scraping, Data Cleaning, SQLite.
+
+### Movie Audience Score Prediction
+
+Developed machine learning models to predict audience movie ratings using movie attributes and critic review information.
+
+**Skills:** Python, Scikit-Learn, Machine Learning.
+
+### Marathon Performance Prediction
+
+Analyzed NYC Marathon results and compared multiple machine learning models to predict runner performance and finishing pace.
+
+**Skills:** Python, Pandas, Scikit-Learn, TensorFlow.
+
+### Childcare Cost Analysis
+
+Explored childcare cost data to identify geographic and category-based pricing patterns through statistical analysis and visualization.
+
+**Skills:** Python, Data Analysis, Visualization.
 
 ### Retail Sales and Profit Prediction
 
-This project explores how pricing and discounts affect retail sales and profit using machine learning techniques. The project includes:
+Applied machine learning techniques to analyze how discounts, pricing, and product categories affect retail sales and profitability.
 
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Data visualization
-- Predictive modeling
-- Model evaluation using Linear Regression and Random Forest
+**Skills:** Python, Pandas, Scikit-Learn, Random Forest, Linear Regression.
 
-Tools used:
-- Python
-- pandas
-- matplotlib
-- scikit-learn
-- Jupyter Notebook
-
-## Goals of This Portfolio
+## Goals
 
 This portfolio is intended to:
-- Showcase academic and personal data science projects
-- Demonstrate technical and analytical skills
-- Track my growth in data science and machine learning
-- Provide employers with examples of my work
 
-## Contact
+* Showcase academic and personal data science projects.
+* Demonstrate technical and analytical skills.
+* Document my growth as a data professional.
+* Provide employers with examples of real-world data projects.
+* Highlight experience with Python, R, machine learning, and analytics.
 
-GitHub: [github.com/juferca](https://github.com/juferca?utm_source=chatgpt.com)
+## Connect With Me
+
+**Portfolio Website:** http://juancaballero.info
+
+**GitHub:** https://github.com/juferca
+
+**LinkedIn:** https://www.linkedin.com/in/juan-caballero-17188616/
