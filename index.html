@@ -1,24 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Juan Caballero Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Caballero | Data Science Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #222;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #111827;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            margin-right: 10px;
+            padding: 10px 15px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f2937;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Juan Caballero Portfolio</h1>
-
-    <p>
-        Welcome to my data science portfolio. This website highlights my projects,
-        technical skills, and professional background as I work toward transitioning
-        into a career in data science and analytics.
-    </p>
+    <header>
+        <h1>Juan Caballero</h1>
+        <p>Data Science Portfolio</p>
+        <p>Logistics professional transitioning into data science and analytics.</p>
+    </header>
 
     <nav>
-        <a href="about.html">About</a> |
-        <a href="projects.html">Work / Projects</a> |
-        <a href="contact.html">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/juferca" target="_blank">GitHub</a>
+        <a href="YOUR_LINKEDIN_URL_HERE" target="_blank">LinkedIn</a>
     </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            My name is Juan Caballero, and I am currently pursuing a Master’s degree
+            in Data Science at Bellevue University. My background is in warehouse
+            logistics and operations, and I am transitioning into a more technical
+            and analytical career path focused on data science, machine learning,
+            and business analytics.
+        </p>
+
+        <p>
+            This portfolio highlights projects where I have worked with data cleaning,
+            exploratory data analysis, visualization, predictive modeling, and model
+            evaluation using tools such as Python, R, Pandas, Scikit-Learn, and data
+            visualization libraries.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Work / Projects</h2>
+
+        <div class="project-card">
+            <h3>Retail Sales and Profit Prediction</h3>
+
+            <p>
+                This project uses machine learning techniques to analyze how pricing,
+                discounts, and product categories affect retail sales and profit.
+                The project includes data cleaning, visualization, predictive modeling,
+                and model evaluation.
+            </p>
+
+            <p>
+                <strong>Skills used:</strong> Python, Pandas, Matplotlib, Scikit-Learn,
+                Linear Regression, Random Forest
+            </p>
+
+            <p>
+                <strong>Key findings:</strong> Higher discounts were often connected to
+                lower profit, and Random Forest performed better than Linear Regression
+                for predicting sales.
+            </p>
+
+            <a class="button" href="https://github.com/juferca/dataSciencePortfolio/tree/main/08retailSalesPrediction" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Marathon Performance Prediction</h3>
+
+            <p>
+                This project analyzes NYC Marathon results to identify patterns that
+                influence runner performance. Machine learning models were used to
+                predict marathon performance and compare model results.
+            </p>
+
+            <p>
+                <strong>Skills used:</strong> Python, Pandas, Scikit-Learn, TensorFlow,
+                Data Visualization
+            </p>
+
+            <p>
+                <strong>Key findings:</strong> Runner performance varied based on factors
+                such as gender, age group, and pace-related features.
+            </p>
+
+            <a class="button" href="https://github.com/juferca/dataSciencePortfolio/tree/main/06marathonPerformanceModel" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Childcare Cost Analysis</h3>
+
+            <p>
+                This project explores childcare cost data to understand pricing patterns
+                across locations and childcare categories. The analysis focuses on data
+                cleaning, summary statistics, and visual storytelling.
+            </p>
+
+            <p>
+                <strong>Skills used:</strong> Python, Pandas, Data Cleaning, Exploratory
+                Data Analysis, Visualization
+            </p>
+
+            <p>
+                <strong>Key findings:</strong> Childcare costs can vary significantly by
+                location and care type, showing the importance of regional analysis.
+            </p>
+
+            <a class="button" href="https://github.com/juferca/dataSciencePortfolio/tree/main/07childcareCostAnalysis" target="_blank">
+                View Repository
+            </a>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Thank you for visiting my portfolio. You can view my work and connect
+            with me through the links below.
+        </p>
+
+        <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/juferca" target="_blank">
+                github.com/juferca
+            </a>
+        </p>
+
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="YOUR_LINKEDIN_URL_HERE" target="_blank">
+                View my LinkedIn profile
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Juan Caballero | Data Science Portfolio</p>
+    </footer>
 
 </body>
 </html>
